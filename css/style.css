@@ -22,3 +22,58 @@ caption{
     color: red;
     font-style: oblique;
 }
+.t_upper{
+    text-transform: uppercase;
+    /* color: red; */
+}
+.t_lower{
+    text-transform: lowercase;
+    color: blue;
+}
+.t_capitalize{
+    text-transform: capitalize;
+    color: green;
+}
+.t_align_cent{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+    
+}
+.t_decor_over{
+    text-decoration: overline;
+}
+.t_line{
+    text-decoration: line-through;
+}
+.t_under{
+    text-decoration: underline ;
+}
+.t_all{
+    text-decoration: overline underline line-through;
+}
+.t_indent{
+    text-indent: 200px;
+}
+.t_line_ht{
+    line-height: 40px;
+}
+.t_spacing{
+    letter-spacing: 20px;
+}
+.w_spacing{
+    word-spacing: 30px;
+}
+.t_shadow1{
+    color: black;
+    text-shadow: 5px 5px 6px grey;
+    font-size: 70px;
+    text-align: center;
+}
+.t_shadow2{
+    color: purple;
+    text-shadow: 6px 7px 7px black;
+    font-size: 70px;
+    text-align: center;
+}
