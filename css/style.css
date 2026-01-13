@@ -4,8 +4,8 @@ h4{
     font-size: 50px;
 }
 p{
-    background-color: red;
-    color: bisque;
+    /* background-color: red; */
+    color: black;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
@@ -76,4 +76,64 @@ caption{
     text-shadow: 6px 7px 7px black;
     font-size: 70px;
     text-align: center;
+}
+.imgb_shadow{
+    width: 400px;
+    box-shadow: 5px 7px 7px grey;
+}
+.imgb2_shadow{
+    box-shadow: 6px 6px 7px #f54927;
+    width: 400px;
+}
+.imgb3_shadow{
+    box-shadow: 6px 7px 8px #020945;
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+}
+.imgd_shadow{
+    width: 400px;
+    filter: drop-shadow(6px 7px 7px aqua);
+}
+.imgd2_shadow{
+    width: 500px;
+    filter: drop-shadow(8px 8px 9px grey);
+}
+.f_family1{
+    font-family: monospace;
+    color: black;
+    background-color: white;
+}
+.f_family2{
+    font-family: cursive;
+}
+.f_family3{
+    font-family: sans-serif;
+}
+.f_family4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f_family5{
+    font-family:fantasy;
+}
+.f_weight{
+    font-weight: bolder;
+    font-style: oblique;
+}
+.font_all{
+    font: italic bolder 30px fantasy;
+    font-variant: small-caps;
+}
+.t_example{
+    color: red;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+#t_example{
+    color: blue;
+    background-color: aqua;
+}
+.t_decor{
+    text-decoration: underline;
+    color: violet;
 }
