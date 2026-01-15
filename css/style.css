@@ -137,3 +137,104 @@ caption{
     text-decoration: underline;
     color: violet;
 }
+/* print number from 1 to 10 */
+/* postion.html */
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: lightgreen;
+    border: 4px solid black;
+    margin-bottom: 10px;
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.box5{
+    position: sticky;
+    top: 0;
+
+}
+/* rel and abs html */
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    left: 100px;
+}
+#tv{
+    position: absolute;
+    height: 60px;
+    width: 150px;
+    background-color: aqua;
+    left: 110px;
+}
+#sofa{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 90px;
+    top: 120px;
+    background-color: blue;
+}
+#fridge{
+    position: absolute;
+    width: 80px;
+    height: 150px;
+    top: 250px;
+    left: 320px;
+    background-color: wheat;
+}
+/* bg_image html */
+body{
+    background-image: url(/img/starry\ sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 60px;
+}
+.para{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: cursive;
+}
+/* background html */
+.linear{
+    height: 400px;
+    background: linear-gradient(to right, orange, white, green);
+    border: 10px solid red;
+}
+.text{
+    text-align: center;
+    color: blue;
+}
+.radial{
+    background: radial-gradient(ellipse at right top,red,blue,green,yellow);
+    height: 500px;
+    margin: 20px;
+}
+.conic{
+    background: conic-gradient(red,yellow,pink,white,aqua);
+    height: 600px;
+    margin: 10px;
+}
