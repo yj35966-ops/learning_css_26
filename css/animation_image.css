@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.swing{
+    animation: swing 1.5s ease-in-out infinite alternate;
+    position: relative;
+    transform-origin: top center;
+
+}
+.swing img{
+    width: 300px;
+    border: 14px groove gold;
+    box-shadow: 8px 8px 9px grey;
+    display: block;
+}
+.swing::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    transform: translateX(-50deg);
+    width: 6px;
+    height: 50px;
+    background: grey;
+}
+.swing::after{
+    content: "\2B24";
+    position: absolute;
+    top: -58px;
+    left: 146px;
+    transform: translateX(-50deg);
+    height: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+@keyframes swing{
+    0%{transform: rotate(5deg);}
+    100%{transform: rotate(-5deg);}
+}
