@@ -6,13 +6,19 @@
     font-size: 70px;
     font-weight: 800;
     perspective: 100px;
+    letter-spacing: 4px;
 }
 .text_container>b{
     animation: getup 10s infinite;
-    background: linear-gradient(red orange blue);
-    box-shadow: 0px 6px 6px grey;
+    box-shadow: 0px 30px 15px grey;
     height: 80px;
-    width: 50px;
+    width: 60px;
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    transform: rotateX(-85deg);
+    color: black;
+    background: linear-gradient(to right, red, orange, yellow, black);
 }
 .text_container>b:nth-child(1){
     animation-delay: 0s;
@@ -34,6 +40,11 @@
 }
 @keyframes getup{
     from{transform: rotateX(-85deg);}
-    10%,50%{transform: rotateX(0);}
+    10%,50%{transform: rotateX(0deg);}
     60%,to{transform: rotateX(-85deg);}
 }
+/* .text_container:hover{
+    color: purple;
+    font-style: italic;
+    transform: scale(1.2) translateY(-85deg);
+} */

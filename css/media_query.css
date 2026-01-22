@@ -1,0 +1,63 @@
+h1{
+    font-size: 60px;
+    color: aqua;
+}
+body{
+    background-color: red;
+}
+image{
+    height: 400px;
+    width: 400px;
+}
+p{
+    font-size: 60px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    h1{
+        font-size: 100px;
+        color: white;
+    }
+    body{
+        background-color: purple;
+    }
+    image{
+        width: 300px;
+        height: 300px;
+    }
+    p{
+        font-size: 80px;
+        border: 4px solid black;
+    }
+}
+@media (min-width:768px) and (max-width:850px) {
+    h1{
+        font-size: 120px;
+        color: green;
+    }
+    body{
+        background-color: aquamarine;
+    }
+    image{
+        display: none;
+    }
+    p{
+        font-size: 80px;
+        border: 4px solid black;
+    }
+}
+@media (min-width:850px) and (max-width:1020px) {
+    h1{
+        font-size: 140px;
+        color: blue;
+    }
+    body{
+        background-color: grey;
+    }
+    image{
+        display: none;
+    }
+    p{
+        font-size: 80px;
+        border: 4px solid red;
+    }
+}
